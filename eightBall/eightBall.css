@@ -1,0 +1,80 @@
+body {
+    background-color:black;
+    color:honeydew;
+    text-align: center; 
+    animation: opacityOn 2.5s;  
+}
+@keyframes title {
+    from {text-shadow: none;}
+    to {text-shadow: 5px 5px blue;}
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    animation-name: title;
+    animation-duration: 7s;
+    text-shadow: 5px 5px blue;
+}
+
+@keyframes opacityOn {
+    0% {
+        opacity: 0;
+    }
+   100% {
+       opacity: 1;
+   }
+}
+
+p {
+    font-size: 20px;
+    
+}
+input {
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    background-color:darkgrey;
+    color: white
+    
+    
+}
+#secondField {
+    display: none;
+    animation: opacityOn 2.5s; 
+}
+
+
+#answer {
+    font-size: 50px;
+    display: none;
+    animation: opacityOn 3s; 
+}
+
+
+button {
+  width: 200px;
+  height: 57px;
+  padding: 20px 20px;
+  border-radius: 0px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: darkslategray;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: mintcream;
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-property: box-shadow;
+  transition-duration: .5s;
+  
+}
+button:hover {
+    box-shadow: 5px 5px blue;
+    background-color: whitesmoke;
+    color: darkslategray
+    
+}
