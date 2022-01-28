@@ -1,52 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=main.css>
-    <title>Rebecca Tian's Personal Website</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Rebecca Tian</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Day - v4.7.0
+  * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
 <body>
-  <div class="sidenav">
-    <a href="index.html">Home</a>
-    <a href="resume.html">Resume</a>
-    <a href = "https://rebeccatian.github.io/eight-ball/">Eight Ball</a>
-    <a href="contacts.html">Contacts</a>
-   
-  </div>
-  
-  
-      
-      <!-- Page content -->
-      <div class="main">
-        <img src="IMG_1505.GIF"  style="float: right; width: 250px;height: 300px;">
-        <h1 class = "header"> Rebecca Tian</h1></h1>
 
-        <p id="msg"> <i>Hi there! I am currently a sophmore studying Cognitive and 
-          Computer Science at the University of Georgia.
-        </i>
-        </p>
-        <p id = "subheading" style = "font-size: 20px;"> <b>Skills and Experience </b></p>
-
-        <p id ="paragraph">
-         Through my personal projects and coursework, I have gained experience in Java, HTML, CSS, and JavaScript, <br> 
-        and I am constantly trying to expand my knowledge by learning others.
-        After working in the  <br> customer service industry for years in various roles such as 
-        lifeguarding and being a residential assistant, <br>
-        I have also gained a multitude of soft skills
-        including interpersonal communication and how to adapt. <br> </p>
-
-        <p id = "subheading"style = "font-size: 20px;"> <b>Personal Interests</b></p>
-        <p id ="paragraph">
-        In terms of hobbies, I love everything about the arts
-       and enjoy painting, playing music, and writing in my free time! <br> 
-       Additionally, some topics that I am passionate about and can talk to anyone for hours about are  
-       philosophy, A.I, and astrology.</p></p>
-      
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <a href="rebeccatianr@gmail.com">rebeccatianr@gmail.com</a>
+        &nbsp; &nbsp; +1 678 972 7574
       </div>
+      <div class="social-links d-none d-md-block">
+        <a href="https://github.com/rebeccatian">Github</a>
+        <a href="https://linkedin.com/in/rebeccatianr">LinkedIn</a>
+        <a href="https://instagram.com/rebe.c.c">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Rebecca Tian</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Social Links</span> </a>
+            <ul>
+              <li class="dropdown">
+                
+                  <li><a href="https://github.com/rebeccatian">Github</a></li>
+                  <li><a href="https://linkedin.com/in/rebeccatianr">LinkedIn</a></li>
+                  <li><a href="https://instagram.com/rebe.c.c">Instagram</a></li>
+                </ul>
+              </li>
+            </li>
+          <li><a class="nav-link scrollto" href="#contact">Resume</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+      <img src="assets/img/hero.jpg" class = "heropic">
+      <h1>Hi there!</h1>
+      <h2>Welcome to my page. I am Rebecca Tian, 
+        <br>currently a student at the University of Georgia 
+        <br>interested in front-end development.
+      </h2>
+      <a href="#about" class="btn-get-started scrollto">More About Me</a>
+      <br/>
+      <br/>
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="100" height="100"
+viewBox="0 0 172 172"
+class = "arrow";
+style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M79.87967,170.9465c0.32967,0.32967 0.731,0.59483 1.16817,0.78117c0.43717,0.17917 0.903,0.27233 1.36883,0.27233c0.46583,0 0.93167,-0.09317 1.36883,-0.27233c0.44433,-0.17917 0.8385,-0.44433 1.16817,-0.78117l78.82617,-78.82617c1.3975,-1.3975 1.3975,-3.66933 0,-5.06683c-1.3975,-1.3975 -3.66933,-1.3975 -5.06683,0l-72.713,72.713v-149.0165c0,-1.978 -1.60533,-3.58333 -3.58333,-3.58333c-1.978,0 -3.58333,1.60533 -3.58333,3.58333v149.0165l-72.713,-72.72017c-1.3975,-1.3975 -3.66933,-1.3975 -5.06683,0c-1.3975,1.3975 -1.3975,3.66933 0,5.06683z"></path></g></g></svg>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="d-flex align-items-center">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <img src="assets/img/IMG_1505.GIF"  class = "gif" style="float: right; min-width:100px; width: 50%;height: auto;">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+            <h3>About Me</h3>
+            <p class="fst-italic">
+              Currently studying Cognitive Science with a double minor in Computer Science and Chinese, 
+              while also pursing a New Media Certificate. 
+            </p>
+            <p>Technical Skills:</p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> HTML/CSS</li>
+              <li><i class="bi bi-check-circle"></i> JavaScript (including React/JSX)</li>
+              <li><i class="bi bi-check-circle"></i> Java</li>
+            </ul>
+            <p>
+              After working in the customer service industry for years in various roles such as 
+              lifeguarding and being a residential assistant, <br>
+              I have also gained a multitude of soft skills
+              including interpersonal communication and how to adapt.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
    
-    </body>
-    
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Portfolio</span>
+          <h2>Portfolio</h2>
+          <p>All complete personal projects so far</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+               <!--
+              <li data-filter=".filter-app">HTML/CSS/JavaScript</li>
+              <li data-filter=".filter-card">React</li>
+              <li data-filter=".filter-web">Java</li>
+              --> 
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/noteDisplay.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Note App</h4>
+              <p>React.js</p>
+              <a href="assets/img/NotePreview.png" data-gallery="portfolioGallery" 
+              class="portfolio-lightbox preview-link" title="Note App">
+             
+                <i class="bx bx-plus"></i>
+               </a>
+              <a href="https://rebeccatian.github.io/my-app" class="details-link" title="More Details">
+                <i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/magic_8-ball.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Magic Eight Ball</h4>
+              <p>JavaScript,HTML,CSS</p>
+              <a href="assets/img/eightballDes.png" data-gallery="portfolioGallery" 
+              class="portfolio-lightbox preview-link" title="Magic Eight Ball">
+                <i class="bx bx-plus"></i></a>
+              <a href="https://rebeccatian.github.io/eight-ball" class="details-link" title="More Details">
+                <i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/flappy-bird-.0.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Flappy Bird</h4>
+              <p>Java</p>
+              <a href="assets/img/flappydes.png" data-gallery="portfolioGallery" 
+              class="portfolio-lightbox preview-link" title="App 2">
+              <i class="bx bx-plus"></i></a>
+              <a href="https://github.com/rebeccatian/Flappy-Bird.git" class="details-link" title="More Details">
+                <i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <!--
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" 
+              class="portfolio-lightbox preview-link" title="Card 2">
+              <i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details">
+                <i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" 
+              class="portfolio-lightbox preview-link" title="Web 2">
+              <i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details">
+                <i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" 
+              class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details">
+                <i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          -->
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  
+    <!-- ======= Resume Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Resume</span>
+          <h2>Resume</h2>
+        </div>
+        <div class="main">
+          <iframe src="Resume.pdf" style="width: 100%; height: 500px; border: 0"></iframe>
+          </iframe>
+        
+        </div>
+        </div>
+
+        
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+     Phone: 678-972-7574 | Email: rebeccatianr@gmail.com
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <span>&#8593;</span></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
