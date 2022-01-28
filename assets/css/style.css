@@ -12,7 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background: rgb(255, 200, 174);
-  background: linear-gradient(70deg, rgb(252, 201, 177), rgb(146, 212, 187));
+  background: linear-gradient(70deg, rgb(252, 201, 177), rgb(185, 167, 156));
   background-size: 400% 400%;
 
   animation: AnimationName 20s ease infinite;
